@@ -3,10 +3,11 @@
 Template for apollo-server-express and typescript
 
 ## Installation
-
+```bash
 git clone https://github.com/harrygothold/apollo-express-typescript-node-template
 
 cd apollo-express-typescript-node-template
+```
 
 ```node
 npm install
