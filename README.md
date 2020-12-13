@@ -11,4 +11,5 @@ cd apollo-express-typescript-node-template
 
 ```node
 npm install
+npm start
 ```
