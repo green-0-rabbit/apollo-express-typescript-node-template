@@ -1,20 +1,17 @@
-
 import { ApolloServer } from 'apollo-server-express';
-import bodyParser from 'body-parser';
 import express from 'express';
 import _resolvers from './_resolvers';
 import _typedefs from './_typedefs';
 
 const app = express();
 
-app.use(bodyParser.urlencoded({ extended: false }))
-app.use(bodyParser.json());
+app.use(express.json());
 
 export const server: ApolloServer = new ApolloServer({
-    typeDefs: _typedefs,
-    resolvers: _resolvers,
-    playground: true,
-    introspection: true
+  typeDefs: _typedefs,
+  resolvers: _resolvers,
+  playground: true,
+  introspection: true,
 });
 
 server.applyMiddleware({ app });
