@@ -1,0 +1,32 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "graph-express-playground",
+    "dateExported": "2023-02-22T20:48:19.768Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "18be2f08-2622-4d6c-8a67-9adf38b508a2",
+            "colId": "0a102257-e3e1-4333-8e35-470568ed054a",
+            "containerId": "",
+            "name": "http://localhost:4000/graphql",
+            "url": "http://localhost:4000/graphql",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-02-22T20:47:31.421Z",
+            "modified": "2023-02-22T20:47:31.421Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "graphql",
+                "raw": "",
+                "form": [],
+                "graphql": {
+                    "query": "query GetUser($name: String!) {\r\n\tgetUser(name: $name) {\r\n\t\tname\r\n\t}\r\n}",
+                    "variables": "{\r\n\t\"name\": \"John Doe\"\r\n}"
+                }
+            },
+            "tests": []
+        }
+    ]
+}

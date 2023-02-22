@@ -1,5 +1,8 @@
-import Example from "./Example";
+import { DocumentNode } from "graphql";
+import Example from "./user";
 
-export default [
+const typedefs: DocumentNode[] = [
     Example.typedefs
 ]
+
+export default typedefs;

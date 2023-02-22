@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
-    "target": "es2017",
-    "module": "commonjs",
+    "target": "ES2022",
+    "module": "nodenext",
     "lib": [
       "dom",
       "es6",
-      "es2017",
+      "ES2022",
       "esnext.asynciterable"
     ],
     "sourceMap": true,
